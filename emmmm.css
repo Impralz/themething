@@ -978,14 +978,13 @@ button[aria-label="Send a gift"] {
   display: none;
 }
 .wordmark__421ed:after {
-    content: url("data:image/svg+xml,%3Csvg id='svg' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' width='250' height='50' viewBox='0 0 250 50'%3E%3Ctext x='5' y='35' font-size='25' font-family='Arial' font-weight='bold' fill='%23C6A0FF' stroke='%23000000' stroke-width='1' opacity='0.8'%3EI HATE Black Men.. - yuyu%3C/text%3E%3C/svg%3E") !important;
-    display: block !important;
+    content: url("data:image/svg+xml,%3Csvg width='200' height='50' xmlns='http://www.w3.org/2000/svg'%3E%3Cdefs%3E%3Cfilter id='outline' x='-50%' y='-50%' width='200%' height='200%25'%3E%3CfeMorphology operator='dilate' radius='1.5' in='SourceAlpha' result='thicken'/%3E%3CfeMerge%3E%3CfeMergeNode in='thicken'/%3E%3CfeMergeNode in='SourceGraphic'/%3E%3C/feMerge%3E%3C/filter%3E%3C/defs%3E%3Ctext x='5' y='25' font-size='20' font-family='Arial, sans-serif' font-weight='bold' fill='%23C6B5FF' filter='url(%23outline)'%3Eyuyu%3C/text%3E%3C/svg%3E");
     position: absolute;
-    top: 2px; /* Slightly adjusted higher */
-    left: 5px; /* More to the left */
-    z-index: 9999; /* Ensures visibility */
-    pointer-events: none; /* Prevents interaction */
-    user-select: none; /* Prevents selection */
+    top: 2px;
+    left: 0px;
+    z-index: 9999;
+    opacity: 0.9;
+    mix-blend-mode: normal;
 }
 
 .channelName-3KPsGw,
