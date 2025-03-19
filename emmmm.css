@@ -978,13 +978,13 @@ button[aria-label="Send a gift"] {
   display: none;
 }
 .wordmark__421ed:after {
-    content: url("data:image/svg+xml,%3Csvg width='150' height='40' xmlns='http://www.w3.org/2000/svg'%3E%3Ctext x='5' y='15' font-size='18' font-family='Arial' fill='transparent' stroke='%23C6B5FF' stroke-width='1.2'%3ETest Watermark%3C/text%3E%3C/svg%3E");
+    content: url("data:image/svg+xml,%3Csvg width='170' height='45' xmlns='http://www.w3.org/2000/svg'%3E%3Ctext x='3' y='20' font-size='20' font-family='Arial' fill='%23C6B5FF' stroke='%23000000' stroke-width='2'%3ETest Watermark%3C/text%3E%3C/svg%3E");
     position: absolute;
-    top: 2px;  /* Moves it higher */
-    left: 5px; /* Moves it further left */
+    top: 0px;  /* Moves it higher */
+    left: 2px; /* Moves it further left */
     z-index: 9999; /* Keeps it on top */
-    opacity: 0.8; /* Slight transparency */
-    mix-blend-mode: difference; /* Adapts to background */
+    opacity: 0.9; /* Slight transparency */
+    mix-blend-mode: normal; /* Ensures visibility */
 }
 
 .channelName-3KPsGw,
